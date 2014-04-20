@@ -2299,6 +2299,7 @@ fieldset[disabled] .btn {
   background-color: #ffffff;
   border-color: #cccccc;
 }
+.btn-default.hover,
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
@@ -2340,6 +2341,7 @@ fieldset[disabled] .btn-default.active {
   background-color: #428bca;
   border-color: #357ebd;
 }
+.btn-primary.hover,
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
@@ -2381,6 +2383,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: #5cb85c;
   border-color: #4cae4c;
 }
+.btn-success.hover,
 .btn-success:hover,
 .btn-success:focus,
 .btn-success:active,
@@ -2422,6 +2425,7 @@ fieldset[disabled] .btn-success.active {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
+.btn-info.hover,
 .btn-info:hover,
 .btn-info:focus,
 .btn-info:active,
@@ -2463,6 +2467,7 @@ fieldset[disabled] .btn-info.active {
   background-color: #f0ad4e;
   border-color: #eea236;
 }
+.btn-warning.hover,
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active,
@@ -2504,6 +2509,7 @@ fieldset[disabled] .btn-warning.active {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
+.btn-danger.hover,
 .btn-danger:hover,
 .btn-danger:focus,
 .btn-danger:active,
