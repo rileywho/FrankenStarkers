@@ -1,43 +1,77 @@
 /*Styletile*/
+.style-header{
+	background-color: #fff;
+	// position: fixed;
+	// z-index: 1000;
+}
+.navbar-edit{
+	margin-top: 20px;
+	font-size: 120%;
+	overflow: auto;
+	div{
+	}
+	a{
+		padding: 15px 20px;
+		display: block;
+	}
+}
+.nav-toggle{
+	float: right;
+	font-size: 120%;
+	padding: 22px 25px 0px 0px;
+}
+.nav-collapse{
+	float: left;
+}
 .styletile-container{
-
+	position: relative;
+	// margin-top: 50px;
 }
 .intro{
 	text-align: center;
 }
 .list-dots{
+	margin-left: 15px;
 	li{
 		list-style-type: disc;
 	}
 
+}
+bt-edits{
+	button{
+		display: block;
+	}
 }
 .p-top{
 	padding-top: 20px;
 }
 .section{
 	.row:last-child{
-		margin-bottom: 100px;
+		margin-bottom: 0px;
 	}
 }
 .color-block{
 	float: left;
 	background-color: @brand-primary;
-	width: 10vw;
-    height: 10vw;
+	width: 15vw;
+    height: 15vw;
     max-width: 140px;
     max-height: 140px;
 	margin-right: 10px;
 }
-.color-row{
-	margin-bottom: 45px;
-}
+
 .style-row{
-	margin-top: 150px;
+	margin-top: 50px;
 	h1,h2,h3,h4{
 		margin-top: 0px;
 	}
 }
+.style-titles{
+	margin-bottom: 30px;
+}
 .color-table{
+	margin-bottom: 30px;
+	border: 0px;
 	tr{
 		th{
 		border-top: 0px !important;
@@ -53,5 +87,45 @@
 	}
 } 
 .large{
-	font-size: 400%;
+	font-size: 300%;
+}
+@media screen and (min-width: @screen-sm) {
+// Place your styles here for medium screens and greater
+.navbar-edit{
+	a{
+		display: inline;
+	}
+}
+.style-row{
+	margin-top: 150px;
+}
+.section{
+	.row:last-child{
+		margin-bottom: 100px;
+	}
+}
+.color-block{
+	width: 10vw;
+    height: 10vw;
+}
+.color-row{
+	margin-bottom: 45px;
+}
+.color-table{
+	margin-bottom: 0px;
+}
+
+} //Media end
+
+@media screen and (min-width: @screen-md) {
+// Place your styles here for large and xlarge screens and greater
+
+
+}
+
+/* Retina Display */
+@media screen and (-webkit-min-device-pixel-ratio:2) {
+// Place your styles here for all 'Retina' screens
+
+
 }

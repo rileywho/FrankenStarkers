@@ -33,7 +33,7 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 	</div> <!-- End Row -->
 <hr>
 	<div class="row section">
-		<div class="row"> <!--brand title-->
+		<div class="row" id="identity"> <!--brand title-->
 			<div class="col-md-12 ">
 				<h1 class="text-center large">Identity</h1>
 			</div>
@@ -42,7 +42,7 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 			</div>
 		</div><!-- End Row brand title -->
 		<div class="row style-row"> <!--Guidelines-->
-			<div class="col-md-3 ">
+			<div class="col-md-3 style-titles ">
 				<h2>Guidlines</h2>
 				<p>For all permitted uses of our trademarks, you may not:</p>
 			</div>
@@ -60,33 +60,34 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 		</div> <!-- End Row Guidelines -->
 
 		<div class="row style-row">
-			<div class="col-md-3">
+			<div class="col-md-3 style-titles">
 				<h2>Wordmark</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.</p>
 			</div>
 			<div class="col-md-6 col-md-offset-1">
-				<img class="responsive-image1" src="<?php bloginfo('template_directory');?>/images/logo.png">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/images/logo.png">
 			</div> <!-- Wordmark -->
 		</div> <!-- End Row Workmark-->
 
 		<div class="row style-row"> <!--Sub wordmark-->
-			<div class="col-md-3">
+			<div class="col-md-3 style-titles">
 				<p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.</p>
 			</div>
 			<div class="col-md-6 col-md-offset-1">
-				<img src="<?php bloginfo('template_directory');?>/images/logo-no.png">
+				<img class="img-responsive" src="<?php bloginfo('template_directory');?>/images/logo-no.png">
 			</div>
 		</div> <!-- End Row sub wordmark -->
 		<div class="row style-row"> <!-- color -->
-			<div class="col-md-3">
+			<div class="col-md-3 style-titles">
 				<h2>Color</h2>
 				<p>Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur.</p>
 			</div>
 			<div class="col-md-8 col-md-offset-1">
 				<div class="row color-row">
 					<div class="col-md-6">
+						<div class="center">
 						<div class="color-block"></div>
-						<div class="">
+						
 							<h3>Brand Blue</h3>
 							<h5>#446892 / Pantone 180 C</h5>
 							<table class="table-responsive color-table">
@@ -268,13 +269,13 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 	<hr>
 
 	<div class="row section">
-		<div class="row"> <!--typetitle-->
+		<div class="row" id="type"> <!--typetitle-->
 			<div class="col-md-12">
-				<h1 class="text-center">Typography</h1>
+				<h1 class="text-center large">Typography</h1>
 			</div>
 		</div><!-- End Row type title -->
 		<div class="row style-row"> <!-- Body Text -->
-			<div class="col-md-3">
+			<div class="col-md-3 style-titles">
 				<h2>Body Text</h2>
 			</div>
 			<div class="col-md-7 col-md-offset-1">
@@ -287,7 +288,7 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 		</div> <!-- End Row Body text-->
 
 		<div class="row style-row"> <!-- Headings -->
-			<div class="col-md-3">
+			<div class="col-md-3 style-titles">
 				<h2>Headings</h2>
 			</div>
 			<div class="col-md-7 col-md-offset-1">
@@ -314,14 +315,14 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 
 	<hr>
 
-	<div class="row"> <!--typetitle-->
+	<div class="row" id="ui"> <!--typetitle-->
 		<div class="col-md-12">
 			<h1 class="text-center large">UI Elements</h1>
 		</div>
 	</div><!-- End Row type title -->
 <div class="row section">
 	<div class="row style-row"> <!-- Buttons -->
-		<div class="col-md-3">
+		<div class="col-md-3 style-titles">
 			<h2>Buttons</h2>
 			<p>Donecdui. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 		</div>
@@ -341,7 +342,7 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 	</div> <!-- End Row Buttons -->
 
 	<div class="row style-row"> <!-- Forms -->
-		<div class="col-md-3">
+		<div class="col-md-3 style-titles">
 			<h2>Forms</h2>
 			<p>Donecdui. Nulla vitae elit libero, a pharetra augue. Etiam porta sem malesuada magna mollis euismod. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 		</div>
@@ -378,3 +379,4 @@ Sed posuere consectetur est at lobortis. Integer posuere erat a ante venenatis d
 	</div> <!-- End Row Form -->
 </div> <!-- End Section -->
 </div> <!-- style-container end -->
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>
